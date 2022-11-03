@@ -15,7 +15,7 @@ let array = [];
 //creare un generatore di numeri random in un ciclo di 5
 
 for (let i = 0; i < 5; i++){
-    let numeriRandom = Math.floor(Math.random() * 20) ;
+    let numeriRandom = Math.floor(Math.random() * 10) ;
     array.push(numeriRandom);
     console.log(array);
 }
@@ -28,7 +28,7 @@ document.getElementById('numeri').innerHTML = array;
 // utilizziamo il css per far scomparire con il display none
 
 
-setTimeout(scomparsa, 5000);
+setTimeout(scomparsa, 6000);
 
 function scomparsa(){
     let scompare = document.getElementById('numeri');
@@ -39,7 +39,7 @@ function scomparsa(){
 
 let array2 = [];
 
-setTimeout(domanda, 5500);
+setTimeout(domanda, 6500);
 
 function domanda(){
 
