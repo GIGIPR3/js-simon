@@ -39,16 +39,6 @@ function scomparsa(){
 
 let array2 = [];
 
-/* function haivinto(){
-    let vittoria = document.getElementById('esito');
-    vittoria.classList.add("vittoria");
-}
-
-function haiperso(){
-    let vittoria = document.getElementById('esito');
-    vittoria.classList.add("sconfitta");
-} */
-
 setTimeout(domanda, 5500);
 
 function domanda(){
