@@ -1,0 +1,47 @@
+.comando{
+    color: white;
+    background-color: aquamarine;
+}
+
+.piede{
+    background-color: aquamarine;
+    color: white;
+}
+
+header{
+    height: 20vh;
+}
+
+main{
+    height: 70vh;
+}
+
+footer{
+    height: 10vh;
+}
+
+
+
+
+.scompare{
+    /* display: none; */
+    color: white;
+    transition: 0.5s;
+}
+
+.vittoria{
+
+    color: green;
+}
+
+/* .vittoria::before{
+    content: "HAI VINTO!!";
+} */
+
+.sconfitta{
+    color: red;
+}
+
+/* .sconfitta::before{
+    content: "HAI PERSO :(";
+} */
